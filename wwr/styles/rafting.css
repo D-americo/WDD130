@@ -2,7 +2,7 @@
     --primary-color: white;
     --secondary-color: lightblue;
     --accent1-color: darkblue;
-    --accent2-color: yellow;
+    --accent2-color: darkorange;
     --heading-font: "Times New Roman", "Georgia", serif;
     --body-font: Arial, Helvetica, sans-serif;
 }
@@ -55,6 +55,10 @@ article {
     height: auto;
 }
 
+.hero article {
+    position: absolute;
+}
+
 /* o . vai direto em uma classe que queremos ou em algum atributo especifico, nesse caso a foto */
 
 h1 {
@@ -68,13 +72,7 @@ h1 {
     color: #fff;
 }
 
-article {
-    position: absolute;
-    color: var(--accent2-color);
-    background-color: var(--secondary-color);
-}
-
-.article img {
+.hero article img {
     float: right;
     width: 125px;
 }
