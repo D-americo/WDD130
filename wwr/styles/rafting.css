@@ -82,7 +82,7 @@ footer {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: white;
+    background-color: rgb(255, 255, 255);
     color: var(--accent1-color);
 }
 
@@ -243,7 +243,7 @@ footer {
 .contact-form textarea,
 .contact-form button {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 1px solid rgb(176, 176, 176);
     border-radius: 8px;
     font-size: 1rem;
     font-family: var(--body-font);
@@ -273,7 +273,7 @@ footer {
 .employees {
     margin-top: 2rem;
     text-align: center;
-    background-color: #80f0ff;
+    background-color: rgb(104, 247, 255);
     /* cor de fundo da caixa */
     padding: 20px;
     /* espaço interno */
