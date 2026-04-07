@@ -42,30 +42,29 @@
             <div class="contact-form">
                 <form action="#" method="post">
                     <fieldset>
-                        <label>
-                            Name:
-                            <input type="text" name="Name" required>
-                        </label>
-                        <label>
-                            Email:
-                            <input type="email" name="Email" required>
-                        </label>
+                        <label for="name"> Name:</label>
+                        <input type="name" id="name" name="name" required>
+
+                        <label for="useremail"> Email:</label>
+                        <input type="email" id="Email" name="Email" required>
+
                     </fieldset>
 
                     <fieldset>
                         <label>Message Purpose:</label>
-                        <label>
-                            <input type="radio" name="purpose" value="general" required>
-                            General Inquiry
-                        </label>
-                        <label>
-                            <input type="radio" name="purpose" value="reservation">
-                            Reservation Question
-                        </label>
-                        <label>
-                            <input type="radio" name="purpose" value="suggestion">
-                            Website Suggestion
-                        </label>
+
+                        <label for="Generalinquiry"> General Inquiry:</label>
+                        <input type="radio" id="Generalinquiry" name="General inquiry" required>
+
+
+                        <label for="reservation"> Reservation Question:</label>
+                        <input type="radio" id="reservation" name="Reservation Question" required>
+
+
+                        <label for="suggestion"> Website Suggestion:</label>
+                        <input type="radio" id="suggestion" name="Website Suggestion" required>
+
+
                     </fieldset>
 
                     <fieldset>
@@ -74,10 +73,12 @@
                             <textarea name="Message" id="Message" placeholder="Type here"
                               required></textarea>
                         </label>
-                        <label>
-                            Please Subscribe me to the monthly newsletter
-                            <input type="checkbox" name="newsletter">
-                        </label>
+
+                        <label for="subscribe"> Please Subscribe me to the monthly
+                            newsletter</label>
+                        <input type="checkbox" id="subscribe"
+                          name="Please Subscribe me to the monthly newsletter" required>
+
                     </fieldset>
 
 
