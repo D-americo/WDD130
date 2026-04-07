@@ -36,8 +36,7 @@ main {
     gap: 20px;
 }
 
-h1,
-h2 {
+h1 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
