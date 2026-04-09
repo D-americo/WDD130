@@ -103,19 +103,22 @@ footer {
 
 .hero h1 {
     position: absolute;
-    top: 20px;
+
     width: 100%;
     text-align: center;
-    background-color: var(--accent1-color);
-    color: var(--accent2-color);
+    background-color: rgba(0, 0, 139, 0.7);
+    color: rgb(255, 255, 255);
     padding: 10px;
     opacity: 0.9;
+    border-radius: 8px;
+    font-size: 2.5rem;
+    width: 840px;
 }
 
 .hero img {
     display: block;
-    width: 100%;
-    height: auto;
+    width: 840px;
+    height: 300px;
 }
 
 .hero article {
@@ -131,6 +134,92 @@ footer {
     float: right;
     width: 125px;
 }
+
+/* Newsletter */
+.newsletter {
+    background-color: rgb(204, 241, 255);
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+    width: 840px;
+}
+
+.newsletter form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.newsletter input,
+.newsletter button {
+    padding: 10px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 6px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.newsletter button:hover {
+    background-color: var(--accent1-color);
+}
+
+/* call to action*/
+.cta {
+    text-align: center;
+    margin: 40px 0;
+    width: 840px;
+}
+
+.cta button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3 ease;
+}
+
+.cta-button:hover {
+    background-color: var(--accent1-color);
+}
+
+/*grid content*/
+.grid-content {
+    margin: 40px 0;
+    width: 840px;
+}
+
+.grid-content h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 840px;
+}
+
+.grid p {
+    margin-top: 10px;
+    text-align: center;
+    color: var(--accent1-color);
+}
+
+.grid content grid {}
 
 /* 
    History & Adventure
