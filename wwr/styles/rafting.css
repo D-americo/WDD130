@@ -143,7 +143,8 @@ footer {
     margin: 20px 0;
     border-radius: 8px;
     text-align: center;
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
 }
 
 .newsletter form {
@@ -177,7 +178,8 @@ footer {
 .cta {
     text-align: center;
     margin: 40px 0;
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
 }
 
 .cta-button {
