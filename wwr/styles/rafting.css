@@ -106,18 +106,19 @@ footer {
 
     width: 100%;
     text-align: center;
-    background-color: rgba(0, 0, 139, 0.7);
+    background-color: rgba(0, 0, 139, 0.756);
     color: rgb(255, 255, 255);
     padding: 10px;
     opacity: 0.9;
     border-radius: 8px;
     font-size: 2.5rem;
-    width: 840px;
+
 }
 
 .hero img {
     display: block;
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
     height: 300px;
 }
 
@@ -138,7 +139,7 @@ footer {
 /* Newsletter */
 .newsletter {
     background-color: rgb(204, 241, 255);
-    padding: 20px;
+    padding: 40px;
     margin: 20px 0;
     border-radius: 8px;
     text-align: center;
@@ -179,7 +180,7 @@ footer {
     width: 840px;
 }
 
-.cta button {
+.cta-button {
     display: inline-block;
     padding: 12px 24px;
     background-color: var(--secondary-color);
@@ -188,7 +189,7 @@ footer {
     font-weight: bold;
     text-decoration: none;
     border-radius: 8px;
-    transition: background-color 0.3 ease;
+    transition: background-color 0.3s ease;
 }
 
 .cta-button:hover {
@@ -198,7 +199,8 @@ footer {
 /*grid content*/
 .grid-content {
     margin: 40px 0;
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
 }
 
 .grid-content h2 {
@@ -210,7 +212,8 @@ footer {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 20px;
-    width: 840px;
+    width: 100%;
+    max-width: 840px;
 }
 
 .grid p {
@@ -218,8 +221,6 @@ footer {
     text-align: center;
     color: var(--accent1-color);
 }
-
-.grid content grid {}
 
 /* 
    History & Adventure
@@ -422,4 +423,61 @@ footer {
         flex-direction: column;
         align-items: center;
     }
+}
+
+.trip-description {
+    margin: 40px 0;
+}
+
+.trip-description h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trip-description .grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.trip-description img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.trip-description p {
+    text-align: center;
+    margin-top: 5px;
+    color: var(--primary-color);
+}
+
+.trip-table {
+    margin: 40px 0;
+}
+
+.trip-table h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.trip-table th {
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+}
+
+.trip-table tr:nth-child(even) {
+    background-color: rgb(255, 255, 255);
+}
+
+.trip-table tr:hover {
+    background-color: rgb(206, 206, 206);
 }
